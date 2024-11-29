@@ -4,18 +4,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100px;
     margin: 0;
 }
 
-.holder {
+/* .holder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     grid-template-rows: repeat(2, 1fr);     
     gap: 10px;                              
     width: 200px;                           
     height: 200px;                          
-}
+} */
 
 .item {
     display: flex;
@@ -25,4 +25,13 @@ body {
     border: 1px solid #000;
     font-size: 24px;
     font-weight: bold;
+}
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    width: 220px;  
+    height: 220px; 
+    box-sizing: border-box;  
 }
